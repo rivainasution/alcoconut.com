@@ -96,7 +96,7 @@ h6,
 
 .btn-outline-body:hover {
     color: #FFFFFF;
-    background: var(--primary);
+    background-image: linear-gradient(to right top, #ffebcd, #ffd7c2, #ffc3c4, #f3b4d0, #d2abdf, #b8b1ee, #95b8f7, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
     border-color: var(--primary);
 }
 
@@ -169,6 +169,18 @@ h6,
 }
 
 /*** Header ***/
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: red;
+}
+
+
 .owl-carousel-inner {
     position: absolute;
     width: 100%;
